@@ -372,7 +372,7 @@ export default class DropdownAlert extends Component {
       switch (this.state.type) {
         case 'info':
           style = [styles.defaultContainer, {backgroundColor: this.props.infoColor}]
-          source = require('./assets/yellowTick')
+          source = require('./assets/yellowTick.png')
           backgroundColor = this.props.infoColor
           break;
         case 'warn':
